@@ -5,6 +5,7 @@ module.exports = {
   entry: {
     index: './src/index.js',
     print: './src/print.js',
+    hi: './src/sayHi.js',
   },
   plugins: [
     new HtmlWebpackPlugin({

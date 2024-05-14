@@ -30,4 +30,8 @@ function component() {
   return element;
 }
 
+export default function hi() {
+  console.log('Hello');
+}
+
 document.body.appendChild(component());
